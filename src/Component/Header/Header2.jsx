@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Header2 = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Header2 = () => {
           <li>
             <Link
               to="/"
-              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md  text-sm bg-slate-50 font-medium"
             >
               Home
             </Link>
@@ -42,7 +43,7 @@ const Header2 = () => {
           <li>
             <Link
               to="/"
-              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm bg-slate-50 font-medium"
             >
               About
             </Link>
@@ -50,7 +51,7 @@ const Header2 = () => {
           <li>
             <Link
               to="/"
-              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm bg-slate-50 font-medium"
             >
               Home
             </Link>
@@ -58,9 +59,17 @@ const Header2 = () => {
           <li>
             <Link
               to="/"
-              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm bg-slate-50 font-medium"
             >
               Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white   rounded-md text-3xl  font-medium"
+            >
+              <FaLinkedin className=" bg-white text-cyan-700 rounded-md"></FaLinkedin>
             </Link>
           </li>
         </ul>
