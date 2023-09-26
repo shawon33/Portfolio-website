@@ -11,9 +11,9 @@ const Header2 = () => {
   };
 
   return (
-    <nav className=" py-4  md:my-8">
+    <nav className=" py-4  md:my-8 ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="text-gray-500 text-4xl font-bold">SHAWAN</div>
+        <div className="text-gray-500 text-4xl font-bold px-3 py-2 bg-slate-50  rounded-md">SHAWAN</div>
         <div className="md:hidden">
           {/* Mobile menu button */}
           <button
