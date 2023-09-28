@@ -8,7 +8,7 @@ const FirstSection = () => {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <h2 className="text-6xl font-semibold mb-4">
-            Welcome <br /> to My Creative Journey!{" "}
+            Welcome <br /> to My Creative Journey!
           </h2>
           <div className="text-gray-600 rounded-md overflow-hidden mt-10 ">
             <Marquee speed={50} style={{ backgroundColor: "lightblue",width:'400px' ,height:'70px', border:'rounded-md' }}>

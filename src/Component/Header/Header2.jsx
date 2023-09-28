@@ -42,10 +42,10 @@ const Header2 = () => {
           </li>
           <li>
             <Link
-              to="/"
+              to="/aboutMe"
               className="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm bg-slate-50 font-medium"
             >
-              About
+              About Me
             </Link>
           </li>
           <li>

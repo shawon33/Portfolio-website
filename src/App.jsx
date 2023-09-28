@@ -1,15 +1,13 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import Header from "./Component/Header/Header";
-import Header2 from "./Component/Header/Header2";
 import ParticlesConfig from "./Component/Particales/ParticlesConfig";
-import Home from "./Home/Home";
+import Header2 from "./Component/Header/Header2";
 
 function App() {
-  
   return (
     <div className="text-white md:mx-24">
-      {/* <Header></Header> */}
-      <Home></Home>
+      <Header2></Header2>
+      <Outlet></Outlet>
       <ParticlesConfig></ParticlesConfig>
     </div>
   );
